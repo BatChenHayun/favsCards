@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2018/02/17/14/15/pattern-3160023_960_720.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mainHeader {
+    font-family: 'Pattaya', sans-serif;
+}
+
+div.box2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2014/04/24/12/13/composing-331294_960_720.jpg);
+    opacity: 0.9;
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Henny Penny',
+        cursive;
+}
+
+.box1 {
+    margin: 40px;
+    width: 100%;
+    height: fit-content;
+    opacity: 0.9;
+    border-radius: 30px;
+    background: white !important;
+    border: 1px solid black !important
+}
+
+.blackline {
+    position: static;
+    left: 0;
+    width: 100%;
+    height: 10px;
+}
+
+.cardStyle {
+    width: 400px;
+    background-image: url(https://cdn.pixabay.com/photo/2018/02/17/14/15/pattern-3160023_960_720.jpg);
+}
+
+.input {
+    border: 0 !important;
+    outline: 0 !important;
+    background: white !important;
+    border-bottom: 2px solid black !important
+}
